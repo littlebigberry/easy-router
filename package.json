@@ -1,0 +1,39 @@
+{
+  "name": "easy-router",
+  "description": "Easy router organization for express-like web apps.",
+  "version": "0.0.1",
+  "author": "Jesse Earle <jesse@littlebigberry.com>",
+  "contributors": [
+    {
+      "name": "Jesse Earle",
+      "email": "jesse@littlebigberry.com"
+    }
+  ],
+  "dependencies": {
+    "lodash": "*",
+    "string": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "keywords": [
+    "express",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "repository": "git://github.com/littlebigberry/easy-router",
+  "main": "index",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
